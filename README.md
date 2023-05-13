@@ -1,5 +1,5 @@
 # lustre_bulk_migrate
-Ostensibly this utility will take in a zstd compress list of files that need migrated and dispatch lfs_migrate jobs to migrate them.
+Ostensibly this utility will take in a zstd compressed list of files that need migrated and dispatch lfs_migrate jobs to migrate them.
 
 I spent like 2 hours writing and troubleshooting this and then realized:
 ```shell
