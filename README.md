@@ -7,4 +7,4 @@ lfs find --ost <ost here> ... --ost <ostn here> --print0 <path> | xargs -0 -I "{
 ```
 would be faster and do a better job. Looks like Unix wins again.
 
-This does have a nice side effect of finding corrupted filenames from client crashes and such.
+This utility does have a nice side effect of finding corrupted filenames from client crashes and such, though.
